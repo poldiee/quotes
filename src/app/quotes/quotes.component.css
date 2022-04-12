@@ -8,10 +8,13 @@ h1 {
 }
 .overlay {
   background-color: rgba(126, 223, 218, 0.301);
-  border-radius: 0px;
-  margin: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  border-radius: 5px;
+  margin-top: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-bottom: 5%;
 }
 #name {
   color: rgba(81, 221, 198, 0.856);
@@ -27,6 +30,7 @@ h1 {
 .card {
   margin-bottom: 2%;
   background-color: aliceblue;
+  box-shadow: 2px 2px 3px 2px black;
 }
 #date{
     float: right;

@@ -1,7 +1,7 @@
 <!-- <p>quotes-form works!</p> -->
 <div class="container-fluid">
     <h2 class="heading">Add Quote</h2>
-    <hr>
+    <!-- <hr> -->
     <form>
         <form (ngSubmit)='addQuote()' #quotesForm='ngForm'>
         <div class="form-group">
@@ -36,7 +36,7 @@
         </div>
         <div class="form-group">
           <label for="description">Quote</label>
-          <textarea class="form-control" id="quote" rows="3" required [(ngModel)]="quoted.quote" name="quote" #quote='ngModel'></textarea>></textarea>
+          <textarea class="form-control" id="quote" rows="2" required [(ngModel)]="quoted.quote" name="quote" #quote='ngModel'></textarea>></textarea>
           <div *ngIf="quote.invalid && quote.dirty" class="alert alert-danger">
             <div *ngIf="quote.errors.required">
                 Quote cant be empty.
@@ -52,6 +52,6 @@
             </div>
           </div>
         </div>
-        <button class="btn btn-sm btn-success">Add Quote</button>
+        <button type="submit" class="btn btn-sm btn-success">Add Quote</button>
     </form>
   </div>

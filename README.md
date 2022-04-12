@@ -1,6 +1,17 @@
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
+## Author
+
+[Owiti-Charles](https://github.com/Owiti-Charles)
+
+## Description
+
+Angular cli app quotes, allow the user to input new quote, upvote , downvote and delete the quote. 
+
+## Live Page 
+
+
+This project was generated with [Angular CLI]
 
 ## Development server
 
@@ -10,18 +21,29 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Installation / Setup instruction
+* Open Terminal {Ctrl+Alt+T}
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* git clone ``````
 
-## Running unit tests
+* cd 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* code . or atom . based on the text editor you have.
 
-## Running end-to-end tests
+## Technologies Used
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+* [HTML5](https://github.com/topics/html5)
+* [CSS](https://github.com/topics/css3)
+* [AngulerCLI]
+* markdown
+* [Bootstrap](https://github.com/topics/bootstrap)
 
-## Further help
+## Known Bugs
+* some properties still not work properly
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contact Information 
+
+any query or guide, please email @[nessidave@gmail.com]
+
+## License
+* *MIT License:*
