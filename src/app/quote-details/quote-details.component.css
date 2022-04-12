@@ -1,0 +1,29 @@
+#delete {
+  font-size: 20px;
+  float: right;
+  margin-right: 2%;
+}
+#del {
+  float: right;
+}
+#like {
+  font-size: 14px;
+}
+#dislike {
+  font-size: 14px;
+}
+.hate {
+  margin-left: 10px;
+  background-color: rgba(165, 42, 63, 0.418);
+  color: white;
+}
+hr {
+  background-color: rgba(0, 83, 139, 0.247);
+}
+#buttons {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.card-text{
+    font-family: 'Handlee', cursive;
+}

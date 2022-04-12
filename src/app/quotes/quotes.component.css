@@ -14,7 +14,7 @@ h1 {
   padding-bottom: 2%;
 }
 #name {
-  color: rgb(109, 221, 81);
+  color: rgba(81, 221, 198, 0.856);
 }
 .all-cards {
   display: flex;
