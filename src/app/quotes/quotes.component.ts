@@ -14,7 +14,7 @@ export class QuotesComponent implements OnInit {
     new Quote (3,'Gakii','Kindness','No kind action ever stops with itself. One kind action leads to another. Good example is followed.','Hidden Power', new Date(2022,7,17),0,0),
     new Quote (4,'Chipmuk','Encouragement','A pint of example is worth a gallon of advice.','Unknown Author', new Date(2022,9,15),3,0),
     new Quote (5,'Grasher','Icon','The greatest glory in living lies not in never falling, but in rising every time we fall.','Nelson Mandela', new Date(2022,10,10),0,0),
-    new Quote (6,'Minnie','life','The way to get started is to quit talking and begin doing. ','Walt Disney', new Date(2022,11,11),0,0),
+    new Quote (6,'Minnie','life','The way to get started is to quit talking and begin doing. ','Walt Disney', new Date(2022,11,11),0,0)
   ];
   // displayInfo(index){
   //   this.quotes[index].showInfo = !this.quotes[index].showInfo;
@@ -23,7 +23,9 @@ export class QuotesComponent implements OnInit {
 
     get sortQuotes() {
       return this.quotes.sort((a, b) => {
-        return <any>new Date(b.likes) - <any>new Date(a.likes);
+        // return <any>new Date(b.likes) - <any>new Date(a.likes);
+        return <any>new Date(b.datePosted) - <any>new Date(a.datePosted);
+
       });
     }
     addedQuote(quote){
