@@ -21,6 +21,11 @@ export class QuotesComponent implements OnInit {
   // }
   // toggle(index: number){
 
+    get sortQuotes() {
+      return this.quotes.sort((a, b) => {
+        return <any>new Date(b.datePosted) - <any>new Date(a.datePosted);
+      });
+    }
     quoteDelete(isRead: any, index: number){
       if (isRead) {
         // let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].title}?`)

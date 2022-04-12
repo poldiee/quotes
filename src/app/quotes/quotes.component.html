@@ -1,10 +1,10 @@
 <!-- <p>quotes works!</p> -->
-<div class="container overlay">
+<div class="overlay">
   <h1>
     {{ title | titlecase }}
   </h1>
   <div class="all-cards">
-    <div *ngFor="let quote of quotes let i= index" class="card" style="width: 21rem;"  >
+    <div *ngFor="let quote of sortQuotes let i= index" class="card" style="width: 24rem;"  >
         <div class="card-body">
         <h4 class="card-title">{{ quote.title }}</h4>
         <!-- <p class="card-text">{{quote.quote}}</p>
@@ -12,10 +12,10 @@
         <!-- <app-quote-details bind-quoty='quote'></app-quote-details>
             <span class="card-subtitle mb-2">Quoter: <span id="name">{{quote.name}}</span></span>
             <button class="btn btn-info btn-sm" id="quotes-button">View</button> -->
-        <app-quote-details
+        <!-- <app-quote-details
           *ngIf="quote.showInfo"
           bind-quoty="quote"
-        ></app-quote-details>
+        ></app-quote-details> -->
         <!-- <button
           (click)="toggle(i)"
           class="btn btn-info btn-sm"
@@ -23,8 +23,10 @@
         >
           See Quote
         </button> -->
-        <span class="card-subtitle mb-2">Posted by: <span id="name">{{quote.name}}</span></span>
-        <button (click)='displayInfo(i)' class="btn btn-info btn-sm" id="quotes-button" >See Quote</button>
+        <app-quote-details *ngIf='quote.showInfo' bind-quoty='quote' (isRead)='quoteDelete($event,i)'></app-quote-details>
+        <span class="card-subtitle mb-2">Posted by: <span id="name">{{quote.name}}</span><span id="date">on: <span id="datecolor">{{quote.datePosted|date}}</span></span></span>
+        <!-- <button (click)='displayInfo(i)' class="btn btn-info btn-sm" id="quotes-button" >See Quote</button> -->
+
       </div>
     </div>
   </div>
