@@ -28,3 +28,16 @@ h1 {
   margin-bottom: 2%;
   background-color: aliceblue;
 }
+#date{
+    float: right;
+    font-size: 14px;
+  }
+  #datecolor{
+    color: green;
+    font-weight: 700;
+  }
+  .card-text{
+    font-family: 'Handlee', cursive;
+    font-weight: 570;
+    font-size: 18px;
+  } 

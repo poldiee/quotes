@@ -24,12 +24,12 @@ hr {
   margin-top: 5%;
   margin-bottom: 10%;
 }
-.card-text{
-    font-family: 'Handlee', cursive;
-font-weight: 570;
+.card-text {
+  font-family: "Handlee", cursive;
+  font-weight: 570;
   font-size: 18px;
 }
-#when{
-  float:right;
-  font-family: 'Handlee', cursive;
+#when {
+  float: right;
+  font-family: "Handlee", cursive;
 }

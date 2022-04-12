@@ -11,7 +11,8 @@ showInfo:boolean;
     public title?:string,
     public quote?:string,
     public author?:string,
-    public datePosted?: Date,)
+    public datePosted?: Date,
+    public likes?:number, public dislikes?:number)
     {
       this.showInfo=false;
     }
