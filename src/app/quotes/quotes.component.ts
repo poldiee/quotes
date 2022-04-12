@@ -20,6 +20,17 @@ export class QuotesComponent implements OnInit {
   //   this.quotes[index].showInfo = !this.quotes[index].showInfo;
   // }
   // toggle(index: number){
+
+    quoteDelete(isRead: any, index: number){
+      if (isRead) {
+        // let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].title}?`)
+        let toDelete = confirm(`Are you sure you want to delete Quote?`)
+        if(toDelete){
+          this.quotes.splice(index,1);
+        }
+        
+      }
+    }
     displayInfo(index: number){
     this.quotes[index].showInfo = !this.quotes[index].showInfo;
   }
