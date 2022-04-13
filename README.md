@@ -47,3 +47,4 @@ any query or guide, please email @[nessidave@gmail.com]
 
 ## License
 * *MIT License:*
+Copyright (c) 2022 poldiee
