@@ -24,7 +24,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
 
-* git clone ``````
+* git clone ```https://github.com/poldiee/quotes.git```
 
 * cd 
 
