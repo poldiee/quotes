@@ -9,6 +9,7 @@
 Angular cli app quotes, allow the user to input new quote, upvote , downvote and delete the quote. 
 
 ## Live Page 
+https://poldiee.github.io/quotes/
 
 
 This project was generated with [Angular CLI]
